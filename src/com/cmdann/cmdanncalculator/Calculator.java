@@ -43,23 +43,8 @@ public class Calculator extends Activity {
 	private Button btnEquals = null;
 	private Button btnC = null;
 	private Button btnDecimal = null;
-	private Button btnMC = null;
-	private Button btnMR = null;
-	private Button btnMM = null;
-	private Button btnMP = null;
 	private Button btnBS = null;
-	private Button btnPerc = null;
-	private Button btnSqrRoot = null;
-	private Button btnPM = null;
-	private Button expSQ = null;
-	private Button expEX = null;
-	private Button nbtn1 = null;
-	private Button nbtn2 = null;
-	private Button nbtn3 = null;
-	private Button nbtn4 = null;
-	private Button nbtn5 = null;
-	private Button nbtn6 = null;
-	private Button nbtn7 = null;
+	
 
 	private double num = 0;
 	private double memNum = 0;
