@@ -94,10 +94,7 @@ public class Calculator extends Activity {
 		}
 
 		if (width < 300) {
-			btnMC.setTextSize(18);
-			btnMR.setTextSize(18);
-			btnMP.setTextSize(18);
-			btnMM.setTextSize(18);
+			
 			btnBS.setTextSize(18);
 			btnDivide.setTextSize(18);
 			btnPlus.setTextSize(18);
