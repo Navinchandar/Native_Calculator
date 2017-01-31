@@ -101,10 +101,9 @@ public class Calculator extends Activity {
 			btnMinus.setTextSize(18);
 			btnMultiply.setTextSize(18);
 			btnEquals.setTextSize(18);
-			btnPM.setTextSize(18);
-			btnPerc.setTextSize(18);
+			
 			btnC.setTextSize(18);
-			btnSqrRoot.setTextSize(18);
+			
 			btnNine.setTextSize(18);
 			btnEight.setTextSize(18);
 			btnSeven.setTextSize(18);
@@ -116,16 +115,7 @@ public class Calculator extends Activity {
 			btnOne.setTextSize(18);
 			btnZero.setTextSize(18);
 			btnDecimal.setTextSize(18);
-			expSQ.setTextSize(18);
-			expEX.setTextSize(18);
-			nbtn1.setTextSize(18);
-			nbtn2.setTextSize(18);
-			nbtn3.setTextSize(18);
-			nbtn4.setTextSize(18);
-			nbtn5.setTextSize(18);
-			nbtn6.setTextSize(18);
-			nbtn7.setTextSize(18);
-		}
+			}
 
 		txtCalc.setTextColor(Color.WHITE);
 		txtCalc.setBackgroundColor(Color.BLACK);
@@ -141,33 +131,19 @@ public class Calculator extends Activity {
 		btnSeven.setTextColor(Color.WHITE);
 		btnEight.setTextColor(Color.WHITE);
 		btnNine.setTextColor(Color.WHITE);
-		btnPM.setTextColor(Color.WHITE);
+		
 		btnDecimal.setTextColor(Color.WHITE);
 
-		btnMP.setTextColor(Color.WHITE);
-		btnMM.setTextColor(Color.WHITE);
-		btnMR.setTextColor(Color.WHITE);
-		btnMC.setTextColor(Color.WHITE);
+		
 		btnBS.setTextColor(Color.WHITE);
 		btnC.setTextColor(Color.WHITE);
-		btnPerc.setTextColor(Color.WHITE);
-		btnSqrRoot.setTextColor(Color.WHITE);
+		
 		btnDivide.setTextColor(Color.WHITE);
 		btnPlus.setTextColor(Color.WHITE);
 		btnMinus.setTextColor(Color.WHITE);
 		btnMultiply.setTextColor(Color.WHITE);
 		btnEquals.setTextColor(Color.WHITE);
-		expSQ.setTextColor(Color.WHITE);
-		expEX.setTextColor(Color.WHITE);
-
-		nbtn1.setTextColor(Color.WHITE);
-		nbtn2.setTextColor(Color.WHITE);
-		nbtn3.setTextColor(Color.WHITE);
-		nbtn4.setTextColor(Color.WHITE);
-		nbtn5.setTextColor(Color.WHITE);
-		nbtn6.setTextColor(Color.WHITE);
-		nbtn7.setTextColor(Color.WHITE);
-
+		
 	}
 
 	private void initControls() {
@@ -189,79 +165,10 @@ public class Calculator extends Activity {
 		btnEquals = (Button) findViewById(R.id.btnEquals);
 		btnC = (Button) findViewById(R.id.btnC);
 		btnDecimal = (Button) findViewById(R.id.btnDecimal);
-		btnMC = (Button) findViewById(R.id.btnMC);
-		btnMR = (Button) findViewById(R.id.btnMR);
-		btnMM = (Button) findViewById(R.id.btnMM);
-		btnMP = (Button) findViewById(R.id.btnMP);
+		
 		btnBS = (Button) findViewById(R.id.btnBS);
-		btnPerc = (Button) findViewById(R.id.btnPerc);
-		btnSqrRoot = (Button) findViewById(R.id.btnSqrRoot);
-		btnPM = (Button) findViewById(R.id.btnPM);
-		expSQ = (Button) findViewById(R.id.expSQ);
-		expEX = (Button) findViewById(R.id.expEX);
-		nbtn1 = (Button) findViewById(R.id.nbtn1);
-		nbtn2 = (Button) findViewById(R.id.nbtn2);
-		nbtn3 = (Button) findViewById(R.id.nbtn3);
-		nbtn4 = (Button) findViewById(R.id.nbtn4);
-		nbtn5 = (Button) findViewById(R.id.nbtn5);
-		nbtn6 = (Button) findViewById(R.id.nbtn6);
-		nbtn7 = (Button) findViewById(R.id.nbtn7);
-
-		nbtn1.setOnClickListener(new Button.OnClickListener() {
-			public void onClick(View v) {
-				handleEquals(12);
-
-			}
-
-		});
-
-		nbtn2.setOnClickListener(new Button.OnClickListener() {
-			public void onClick(View v) {
-				handleEquals(7);
-
-			}
-
-		});
-
-		nbtn3.setOnClickListener(new Button.OnClickListener() {
-			public void onClick(View v) {
-				handleEquals(8);
-
-			}
-
-		});
-
-		nbtn4.setOnClickListener(new Button.OnClickListener() {
-			public void onClick(View v) {
-				handleEquals(9);
-
-			}
-
-		});
-
-		nbtn5.setOnClickListener(new Button.OnClickListener() {
-			public void onClick(View v) {
-				handleEquals(10);
-
-			}
-
-		});
-
-		nbtn6.setOnClickListener(new Button.OnClickListener() {
-			public void onClick(View v) {
-				handleEquals(11);
-
-			}
-
-		});
-
-		nbtn7.setOnClickListener(new Button.OnClickListener() {
-			public void onClick(View v) {
-				handleEquals(13);
-
-			}
-
-		});
+		
+		
 
 		btnZero.setOnClickListener(new Button.OnClickListener() {
 			public void onClick(View v) {
@@ -270,20 +177,7 @@ public class Calculator extends Activity {
 			}
 
 		});
-		expSQ.setOnClickListener(new Button.OnClickListener() {
-			public void onClick(View v) {
-				setValue(Double.toString(Math.cbrt(Double.parseDouble(txtCalc
-						.getText().toString()))));
-			}
-
-		});
-		expEX.setOnClickListener(new Button.OnClickListener() {
-			public void onClick(View v) {
-				handleEquals(6);
-			}
-
-		});
-		btnOne.setOnClickListener(new Button.OnClickListener() {
+				btnOne.setOnClickListener(new Button.OnClickListener() {
 			public void onClick(View v) {
 				handleNumber(1);
 			}
@@ -363,54 +257,7 @@ public class Calculator extends Activity {
 				handleDecimal();
 			}
 		});
-		btnPM.setOnClickListener(new Button.OnClickListener() {
-			public void onClick(View v) {
-				handlePlusMinus();
-			}
-		});
-		btnMC.setOnClickListener(new Button.OnClickListener() {
-			public void onClick(View v) {
-				memNum = 0;
-			}
-		});
-		btnMR.setOnClickListener(new Button.OnClickListener() {
-			public void onClick(View v) {
-				setValue(Double.toString(memNum));
-			}
-		});
-		btnMM.setOnClickListener(new Button.OnClickListener() {
-			public void onClick(View v) {
-				memNum = memNum
-						- Double.parseDouble(txtCalc.getText().toString());
-				operator = 0;
-			}
-		});
-		btnMP.setOnClickListener(new Button.OnClickListener() {
-			public void onClick(View v) {
-				memNum = memNum
-						+ Double.parseDouble(txtCalc.getText().toString());
-				operator = 0;
-			}
-		});
-		btnBS.setOnClickListener(new Button.OnClickListener() {
-			public void onClick(View v) {
-				handleBackspace();
-			}
-		});
-		btnSqrRoot.setOnClickListener(new Button.OnClickListener() {
-			public void onClick(View v) {
-				setValue(Double.toString(Math.sqrt(Double.parseDouble(txtCalc
-						.getText().toString()))));
-			}
-		});
-		btnPerc.setOnClickListener(new Button.OnClickListener() {
-			public void onClick(View v) {
-				setValue(Double.toString(num
-						* (0.01 * Double.parseDouble(txtCalc.getText()
-								.toString()))));
-			}
-		});
-
+		
 		txtCalc.setOnKeyListener(new OnKeyListener() {
 			public boolean onKey(View v, int i, android.view.KeyEvent e) {
 				if (e.getAction() == KeyEvent.ACTION_DOWN) {

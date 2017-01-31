@@ -24,193 +24,83 @@
         android:orientation="horizontal" >
 
         <Button
-            android:id="@+id/expSQ"
+            android:id="@+id/btnPlus"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1"
+            android:background="@drawable/custombutton2"
             android:gravity="center"
             android:padding="0px"
-            android:text="³√"
-            android:background="@drawable/custombutton2"
-            android:textSize="24sp"
+            android:text="+"
+            android:textSize="23sp"
             android:textStyle="bold"
             android:typeface="serif" />
-        
+
         <Button
-            android:id="@+id/expEX"
+            android:id="@+id/btnMinus"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1"
+            android:background="@drawable/custombutton2"
             android:gravity="center"
             android:padding="0px"
-            android:text="x^"
-            android:background="@drawable/custombutton2"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:typeface="serif" />
-        
-        <Button
-            android:id="@+id/btnMP"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:padding="0px"
-            android:text="M+"
-            android:background="@drawable/custombutton2"
+            android:text="-"
             android:textSize="24sp"
             android:textStyle="bold"
             android:typeface="serif" />
 
         <Button
-            android:id="@+id/btnMM"
+            android:id="@+id/btnMultiply"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1"
+            android:background="@drawable/custombutton2"
             android:gravity="center"
             android:padding="0px"
-            android:text="M-"
-            android:background="@drawable/custombutton2"
+            android:text="x"
             android:textSize="24sp"
             android:textStyle="bold"
             android:typeface="serif" />
 
         <Button
-            android:id="@+id/btnMR"
+            android:id="@+id/btnDivide"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1"
+            android:background="@drawable/custombutton2"
             android:gravity="center"
             android:padding="0px"
-            android:text="MR"
-            android:background="@drawable/custombutton2"
+            android:text="÷"
             android:textSize="24sp"
             android:textStyle="bold"
             android:typeface="serif" />
 
         <Button
-            android:id="@+id/btnMC"
+            android:id="@+id/btnEquals"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1"
+            android:background="@drawable/custombutton2"
             android:gravity="center"
             android:padding="0px"
-            android:text="MC"
-            android:background="@drawable/custombutton2"
-            android:textSize="24sp"
+            android:text="="
+            android:textSize="23sp"
             android:textStyle="bold"
             android:typeface="serif" />
 
         <Button
-            android:id="@+id/btnBS"
+            android:id="@+id/btnC"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1"
+            android:background="@drawable/custombutton3"
             android:gravity="center"
             android:padding="0px"
-            android:text="←"
-            android:background="@drawable/custombutton2"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:typeface="serif" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_weight="1"
-        android:orientation="horizontal" >
-
-        <Button
-            android:id="@+id/nbtn1"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:padding="0px"
-            android:text="Pi"
-            android:background="@drawable/custombutton2"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:typeface="serif" />
-        
-        <Button
-            android:id="@+id/nbtn2"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:padding="0px"
-            android:text="Sin"
-            android:background="@drawable/custombutton2"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:typeface="serif" />
-        
-        <Button
-            android:id="@+id/nbtn3"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:padding="0px"
-            android:text="Cos"
-            android:background="@drawable/custombutton2"
+            android:text="C"
             android:textSize="24sp"
             android:textStyle="bold"
             android:typeface="serif" />
 
-        <Button
-            android:id="@+id/nbtn4"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:padding="0px"
-            android:text="Tan"
-            android:background="@drawable/custombutton2"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:typeface="serif" />
-
-        <Button
-            android:id="@+id/nbtn5"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:padding="0px"
-            android:text="Ln"
-            android:background="@drawable/custombutton2"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:typeface="serif" />
-
-        <Button
-            android:id="@+id/nbtn6"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:padding="0px"
-            android:text="ex"
-            android:background="@drawable/custombutton2"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:typeface="serif" />
-
-        <Button
-            android:id="@+id/nbtn7"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:padding="0px"
-            android:text="e"
-            android:background="@drawable/custombutton2"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:typeface="serif" />
     </LinearLayout>
     
     <LinearLayout
@@ -258,31 +148,6 @@
             android:textStyle="bold"
             android:typeface="serif" />
 
-        <Button
-            android:id="@+id/btnDivide"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:padding="0px"
-            android:text="÷"
-            android:background="@drawable/custombutton2"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:typeface="serif" />
-
-        <Button
-            android:id="@+id/btnC"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:padding="0px"
-            android:text="C"
-            android:background="@drawable/custombutton3"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:typeface="serif" />
     </LinearLayout>
 
     <LinearLayout
@@ -326,32 +191,6 @@
             android:padding="0px"
             android:text="6"
             android:background="@drawable/custombutton"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:typeface="serif" />
-
-        <Button
-            android:id="@+id/btnMultiply"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:padding="0px"
-            android:text="x"
-            android:background="@drawable/custombutton2"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:typeface="serif" />
-
-        <Button
-            android:id="@+id/btnPerc"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:padding="0px"
-            android:text="%"
-            android:background="@drawable/custombutton2"
             android:textSize="24sp"
             android:textStyle="bold"
             android:typeface="serif" />
@@ -402,31 +241,6 @@
             android:textStyle="bold"
             android:typeface="serif" />
 
-        <Button
-            android:id="@+id/btnMinus"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:padding="0px"
-            android:text="-"
-            android:background="@drawable/custombutton2"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:typeface="serif" />
-
-        <Button
-            android:id="@+id/btnSqrRoot"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:padding="0px"
-            android:text="√"
-            android:background="@drawable/custombutton2"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            android:typeface="serif" />
     </LinearLayout>
 
     <LinearLayout
@@ -463,43 +277,18 @@
             android:typeface="serif" />
 
         <Button
-            android:id="@+id/btnPM"
+            android:id="@+id/btnBS"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:layout_weight="1"
+            android:background="@drawable/custombutton2"
             android:gravity="center"
             android:padding="0px"
-            android:text="+/-"
-            android:background="@drawable/custombutton"
-            android:textSize="23sp"
+            android:text="←"
+            android:textSize="24sp"
             android:textStyle="bold"
             android:typeface="serif" />
 
-        <Button
-            android:id="@+id/btnPlus"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:padding="0px"
-            android:text="+"
-            android:background="@drawable/custombutton2"
-            android:textSize="23sp"
-            android:textStyle="bold"
-            android:typeface="serif" />
-
-        <Button
-            android:id="@+id/btnEquals"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:padding="0px"
-            android:text="="
-            android:background="@drawable/custombutton2"
-            android:textSize="23sp"
-            android:textStyle="bold"
-            android:typeface="serif" />
     </LinearLayout>
 
 </LinearLayout>
